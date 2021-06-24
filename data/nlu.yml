@@ -16,6 +16,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hi\
 - intent: goodbye
   examples: |
     - cu
@@ -89,6 +90,8 @@ nlu:
     - I will give my name.
     - Do you want to know my name.
     - I will definately tell your name.
+    - I want to tell my name
+    - i want to tell my name
 - intent: repeat_name
   examples: |
     - Could you please give your name?
@@ -104,3 +107,4 @@ nlu:
     - Tran Lung bang
     - Sushant
     - i want to tell my name to bot
+    - Gaurav Ramse

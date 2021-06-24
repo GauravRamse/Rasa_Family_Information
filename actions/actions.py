@@ -37,10 +37,9 @@ class Action_Say_Name(Action):
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]] :
         name = tracker.get_slot("name")
 
-        if not name:
+        if None == name:
             dispatcher.utter_message(text= "I don't know your name")
         else:
             dispatcher.utter_message(text = f"your name is {name}")
-
         return []
 
