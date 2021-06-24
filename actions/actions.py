@@ -13,6 +13,8 @@ from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
 from rasa_sdk.events import SlotSet
 
+
+print("Hello Ramse")
 class Action_Recieve_Name(Action):
 
     def name(self) -> Text:
